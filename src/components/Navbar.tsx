@@ -52,7 +52,7 @@ const Navbar = () => {
 
   return (
     <nav class="flex sticky justify-around min-w-full max-lg:justify-between max-lg:px-8 items-center min-h-[69px] max-lg:min-h-28 bg-[#1c1f37]">
-      <Link href="/resources/rgb">
+      <Link href="https://craftladns.host">
         <div class="flex justify-center items-center space-x-2">
           <CraftlandsLogo class="w-10 h-10" />
           <span class="text-white font-extrabold text-xl">
