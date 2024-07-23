@@ -1,0 +1,11 @@
+{
+  "animtab": {
+    "animationName": "Nombre de la animación",
+    "length": "Longitud de la gradiente",
+    "outputFormat": "Formato de salida",
+    "outputType": "Tipo de salida",
+    "speed": "Velocidad",
+    "subtitle": "Creador de animaciones de gradiente de complemento TAB",
+    "title": "TAB animado"
+  }
+}

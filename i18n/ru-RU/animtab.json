@@ -1,0 +1,11 @@
+{
+  "animtab": {
+    "animationName": "Название анимации",
+    "length": "Длина градиента",
+    "outputFormat": "Формат",
+    "outputType": "Тип вывода",
+    "speed": "Скорость",
+    "subtitle": "Создать анимацию для плагина TAB",
+    "title": "Анимация TAB"
+  }
+}

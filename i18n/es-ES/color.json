@@ -1,0 +1,29 @@
+{
+  "color": {
+    "bold": "Negrita",
+    "character": "Carácter",
+    "colorAmount": "Color Amount",
+    "colorFormat": "Formato de color",
+    "colorPreset": "Color Preestablecido",
+    "custom": "Custom",
+    "customFormat": "Formato personalizado",
+    "export": "Exportar",
+    "exportedPreset": "Exportado predefinido exitosamente a portapapeles!",
+    "exportedPresetUrl": "Successfully exported preset to url!",
+    "formatCharacter": "Carácter de formato",
+    "formatting": "Formato",
+    "hexColor": "Color Hex",
+    "import": "Importar (Pegar aquí)",
+    "importedPreset": "¡Importado con éxito!",
+    "inputText": "Texto de entrada",
+    "invalidPreset": "PREAJUSTE NO VÁLIDO!\nSi este es un preajuste antiguo, actualícelo utilizando la página de <a class=\"text-blue-400\" href=\"/PresetTools\">herramientas de preajuste</a>, si no, informe a los <a class=\"text-blue-400\" href=\"https://discord.gg/9vUZ9MREVz\">desarrolladores</a>.",
+    "italic": "Itálica",
+    "output": "Salida",
+    "outputSubtitle": "Esto es lo que pones en el chat. Haz click en él para copiarlo.",
+    "placeholders": "Marcadores de posición:",
+    "presets": "Predefinidos",
+    "strikethrough": "Tachado",
+    "underline": "Subrayado",
+    "url": "Export As URL"
+  }
+}

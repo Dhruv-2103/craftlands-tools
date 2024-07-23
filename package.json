@@ -1,0 +1,63 @@
+{
+  "name": "birdflop",
+  "version": "8.8.1",
+  "homepage": "https://www.birdflop.com",
+  "description": "The only 501(c)(3) nonprofit Minecraft server host.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birdflop/web.git"
+  },
+  "engines": {
+    "node": ">=15.0.0"
+  },
+  "author": "LuminescentDev",
+  "license": "AGPL-3.0-or-later",
+  "scripts": {
+    "build": "qwik build",
+    "build.client": "vite build",
+    "build.preview": "vite build --ssr src/entry.preview.tsx",
+    "build.server": "vite build -c adapters/cloudflare-pages/vite.config.ts",
+    "build.types": "tsc --incremental --noEmit",
+    "deploy": "wrangler pages dev ./dist",
+    "lint": "eslint \"src/**/*.ts*\"",
+    "preview": "qwik build preview && vite preview",
+    "start": "vite --mode ssr --host",
+    "start.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --forcenode --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
+    "qwik": "qwik",
+    "qwik-speak-extract": "qwik-speak-extract --supportedLangs=da-DK,en-US,es-ES,ko-KR,nl-NL,pl-PL,pt-PT,ru-RU,tr-TR,zh-CN --assetsPath=i18n"
+  },
+  "devDependencies": {
+    "@anuragroy/tailwindcss-animate": "^1.0.6",
+    "@builder.io/partytown": "^0.10.2",
+    "@builder.io/qwik": "1.5.5",
+    "@builder.io/qwik-city": "1.5.5",
+    "@luminescent/ui": "0.16.5",
+    "@modular-forms/qwik": "^0.24.0",
+    "@types/eslint": "8.56.10",
+    "@types/node": "latest",
+    "@types/react": "^18.3.3",
+    "@typescript-eslint/eslint-plugin": "7.10.0",
+    "@typescript-eslint/parser": "7.10.0",
+    "autoprefixer": "10.4.19",
+    "chart.js": "^4.4.3",
+    "eslint": "8.57.0",
+    "eslint-plugin-qwik": "1.5.5",
+    "postcss": "^8.4.38",
+    "qwik-ionicons": "^1.0.5",
+    "qwik-speak": "^0.23.0",
+    "react": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5",
+    "undici": "^6.18.2",
+    "vite": "^5.2.12",
+    "vite-tsconfig-paths": "^4.3.2",
+    "wrangler": "latest",
+    "yaml": "^2.4.3",
+    "zod": "^3.23.8"
+  },
+  "packageManager": "pnpm@9.0.6+sha512.f6d863130973207cb7a336d6b439a242a26ac8068077df530d6a86069419853dc1ffe64029ec594a9c505a3a410d19643c870aba6776330f5cfddcf10a9c1617",
+  "dependencies": {
+    "@headlessui/react": "^2.0.4"
+  }
+}
